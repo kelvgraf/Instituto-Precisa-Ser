@@ -8,7 +8,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
 
 .container-body {
     background-color: #F0F2F5;
-    height: 100vh;
+    height: 100%;
 }
 
 #body {
@@ -52,9 +52,8 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
     display: flex;
     justify-content: center;
     width: 100%;
-    margin-top: 10rem;
-    margin-top: 10rem;
     max-width: 1366px;
+    margin: 10rem 0 10rem 0;
 }
 
 .container-home-text {
@@ -101,6 +100,58 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
     margin: 0 1rem;
 }
 
+.triangulos-comment {
+    transform: rotate(180deg);
+    width: 100%;
+    position: relative;
+    top: 5px;
+}
+
+.container-comment {
+    display: flex;
+    justify-content: center;
+    background-color: #3DB5B0;
+}
+
+.container-comment-text {
+    margin: 5rem 0 5rem 0;
+}
+
+.paragraph-comment {
+    color: #F0F2F5;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.subparagraph-comment {
+    font-size: 19px;
+    margin-top: 1rem;
+}
+
+.action-title {
+    font-size: 40px;
+    margin: 4rem 0 3rem 20rem;
+}
+
+.container-action-image {
+    display: flex;
+    justify-content: center;
+    width: 280px;
+    height: 200px;
+    align-items: center;
+    background: #0F2B92;
+}
+
+.action-paragraph {
+    width: 300px;
+}
+
+.action-subparagraph {
+    line-height: 2;
+    color: #E30059;
+    font-weight: bold;
+}
+
 /*INSTITUTO MAIN*/
 
 /*DOAÇÃO MAIN*/
@@ -123,12 +174,12 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
 
 .campaign-title {
     font-size: 50px;
-    font-weight: 600;
+    font-weight: bold;
     margin: 2rem 0 0 0;
 }
 
 .campaign-subtitle {
-    font-weight: 600;
+    font-weight: bold;
     color: #E30059;
 }
 
@@ -148,7 +199,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
 .read-link {
     color: #E30059;
     text-decoration: underline;
-    font-weight: 600;
+    font-weight: bold;
 }
 
 .container-data {
@@ -167,7 +218,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
 }
 
 .bank-paragraph {
-    font-weight: 600;
+    font-weight: bold;
     margin-left: 3rem;
 }
 
@@ -182,7 +233,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
     line-height: 2.5;
 }
 .list-payment li {
-    font-weight: 600;
+    font-weight: bold;
 }
 
 .container-payment {
