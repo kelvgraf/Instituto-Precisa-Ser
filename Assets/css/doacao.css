@@ -26,7 +26,7 @@ body {
 	display: flex;
 	justify-content: center;
 	width: 100vw;
-	height: 8.5rem;
+	height: 7.5rem;
 }
 
 .wrap-header {
@@ -158,6 +158,7 @@ position: relative;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	justify-content: space-between;
 	width: 90%;
 	height: 95%;
 	border: 2px solid #F6A800;
@@ -171,7 +172,12 @@ position: relative;
 
 .wrap-description {
 	width: 50%;
-	margin-bottom: 2rem;
+	margin-bottom: 1.5rem;
+}
+@media(max-width:1233px) {
+	.wrap-description {
+		width: 70%;
+	}
 }
 
 .container-text, .container-paragraph {
@@ -185,7 +191,7 @@ position: relative;
 }
 
 .campaign-title {
-	margin: 2rem 0 1rem;
+	margin: 1.5rem 0 1rem;
 	font-size: 3.125rem;
 	font-weight: 600;
 }
@@ -198,7 +204,7 @@ position: relative;
 
 .campaign-paragraph {
 		width: 430px;
-		margin: 1.5rem 0;
+		margin: 1rem 0;
 		font-size: 1.25rem;
 		line-height: 1.75rem;
 }
@@ -229,6 +235,13 @@ position: relative;
 .wrap-donation {
 	display: flex;
 	width: 55%;
+	margin-bottom: 2rem;
+}
+
+@media(max-width: 1233px) {
+	.wrap-donation {
+		width: 70%;
+	}
 }
 
 .container-bank {
@@ -247,7 +260,11 @@ position: relative;
 
 .list-bank {
     list-style: none;
-    margin-left: 3rem;
+    margin: 0 0 1.5rem 3rem;
+}
+
+.bank-item {
+	height: 1.5rem;
 }
 
 .list-payment {
